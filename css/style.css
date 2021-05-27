@@ -1,0 +1,46 @@
+body {
+  background-image: url("../images/homepage_hero_image.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  color: #161412;
+  height: 1200px;
+
+}
+
+h1 {
+  color: #161412;
+  font-family: '../fonts/BillionDreams_PERSONAL.tff', sans-serif;
+  max-width: 450px;
+  min-width: 300px;
+  width: 450px;
+}
+
+ul {
+  background-color: #f1f1f1;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+
+}
+
+li a{
+  color: black;
+  display: block;
+  padding: 8px 16px;
+  text-align: left;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: white;
+}
+
+.active {
+  background-color: red;
+  color: red;
+}
+
+footer {
+  background-color: inherit;
+}
